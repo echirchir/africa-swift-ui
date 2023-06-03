@@ -10,7 +10,6 @@ import SwiftUI
 struct InsetFactView: View {
     
     // properties
-    
     let animal: Animal
     
     var body: some View {
@@ -22,14 +21,12 @@ struct InsetFactView: View {
             }
             .tabViewStyle(PageTabViewStyle())
             .frame(minHeight: 148, idealHeight: 168, maxHeight: 180)
-            
         } // end box
     }
 }
 
 struct InsetFactView_Previews: PreviewProvider {
     static var animals: [Animal] = Bundle.main.decode("animals.json")
-    
     static var previews: some View {
         InsetFactView(animal: animals[0])
             .previewLayout(.sizeThatFits)

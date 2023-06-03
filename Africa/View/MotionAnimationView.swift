@@ -10,7 +10,6 @@ import SwiftUI
 struct MotionAnimationView: View {
     
     // props
-    
     @State private var randomCircle = Int.random(in: 12...16)
     @State private var isAnimating: Bool = false
     
@@ -22,13 +21,11 @@ struct MotionAnimationView: View {
     }
     
     // random size
-    
     func randomSize() -> CGFloat {
         return CGFloat.random(in: 10...300)
     }
     
     // random scale
-    
     func randomSacle() -> CGFloat {
         return CGFloat(Double.random(in: 0.1...2.0))
     }
@@ -40,7 +37,6 @@ struct MotionAnimationView: View {
     }
     
     //random delay
-    
     func randomDelay() -> Double {
         return Double.random(in: 0...2)
     }

@@ -9,6 +9,7 @@ import SwiftUI
 
 struct VideoListItemView: View {
     
+    // props
     let video: Video
     
     var body: some View {

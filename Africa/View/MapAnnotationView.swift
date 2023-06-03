@@ -10,8 +10,8 @@ import MapKit
 
 struct MapAnnotationView: View {
     
+    // props
     var location: NationalParkLocation
-    
     @State private var animation: Double = 0.0
     
     var body: some View {

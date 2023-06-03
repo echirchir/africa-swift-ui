@@ -10,6 +10,7 @@ import AVKit
 
 struct VideoPlayerView: View {
     
+    // props
     var videoSelected: String
     var videoTitle: String
     

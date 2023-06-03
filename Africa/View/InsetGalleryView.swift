@@ -9,7 +9,6 @@ import SwiftUI
 
 struct InsetGalleryView: View {
     // properties
-    
     let animal: Animal
     
     var body: some View {

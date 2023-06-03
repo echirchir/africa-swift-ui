@@ -9,7 +9,6 @@ import SwiftUI
 
 struct HeadingView: View {
     // properties
-    
     var headingImage: String
     var headingText: String
     

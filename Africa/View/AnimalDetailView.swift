@@ -10,7 +10,6 @@ import SwiftUI
 struct AnimalDetailView: View {
     
     // properties
-    
     let animal: Animal
     
     var body: some View {

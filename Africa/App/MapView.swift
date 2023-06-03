@@ -21,25 +21,8 @@ struct MapView: View {
     let locations: [NationalParkLocation] = Bundle.main.decode("locations.json")
     
     var body: some View {
-        // map
-        // Map(coordinateRegion: $region)
-        
         // map with annotations
-        
         Map(coordinateRegion: $region, annotationItems: locations) { item in
-            // old style static
-            // MapPin(coordinate: item.location, tint: .accentColor) : deprecated
-            
-            // MapMarker(coordinate: item.location, tint: .accentColor)
-            
-            //custom basic annotation - could be interactive
-//            MapAnnotation(coordinate: item.location) {
-//                Image("logo")
-//                    .resizable()
-//                    .scaledToFit()
-//                    .frame(width: 32, height: 32, alignment: .center)
-//            }
-            
             // complex map annotation
             MapAnnotation(coordinate: item.location) {
                 MapAnnotationView(location: item)
