@@ -19,6 +19,7 @@
 		3C0A1C1E2A2A9E890012B8AC /* Stickers.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3C0A1C172A2A9E870012B8AC /* Stickers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3C0A1C232A2A9F950012B8AC /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0A1C222A2A9F950012B8AC /* CreditsView.swift */; };
 		3C0A1C262A2AA0F70012B8AC /* CenterModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0A1C252A2AA0F70012B8AC /* CenterModifier.swift */; };
+		3C0A1C292A2B0D690012B8AC /* africa_swift_ui.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3C0A1C282A2B0D690012B8AC /* africa_swift_ui.gif */; };
 		3C7DD49D2A27AB83002FA433 /* AfricaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7DD49C2A27AB83002FA433 /* AfricaApp.swift */; };
 		3C7DD49F2A27AB83002FA433 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7DD49E2A27AB83002FA433 /* ContentView.swift */; };
 		3C7DD4A12A27AB86002FA433 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C7DD4A02A27AB86002FA433 /* Assets.xcassets */; };
@@ -93,6 +94,7 @@
 		3C0A1C222A2A9F950012B8AC /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
 		3C0A1C252A2AA0F70012B8AC /* CenterModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterModifier.swift; sourceTree = "<group>"; };
 		3C0A1C272A2AA23D0012B8AC /* Stickers.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Stickers.entitlements; sourceTree = "<group>"; };
+		3C0A1C282A2B0D690012B8AC /* africa_swift_ui.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = africa_swift_ui.gif; sourceTree = "<group>"; };
 		3C7DD4992A27AB83002FA433 /* Africa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Africa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C7DD49C2A27AB83002FA433 /* AfricaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaApp.swift; sourceTree = "<group>"; };
 		3C7DD49E2A27AB83002FA433 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 		3C7DD49B2A27AB83002FA433 /* Africa */ = {
 			isa = PBXGroup;
 			children = (
+				3C0A1C282A2B0D690012B8AC /* africa_swift_ui.gif */,
 				3C0A1C242A2AA0E30012B8AC /* Modifier */,
 				3C0A1BFC2A2A5D2E0012B8AC /* Helper */,
 				3C7DD4D82A27BACB002FA433 /* Extension */,
@@ -389,6 +392,7 @@
 				3C7DD4C42A27AF02002FA433 /* videos.json in Resources */,
 				3C7DD4BE2A27AEBA002FA433 /* zebra.mp4 in Resources */,
 				3C7DD4B82A27AEBA002FA433 /* cheetah.mp4 in Resources */,
+				3C0A1C292A2B0D690012B8AC /* africa_swift_ui.gif in Resources */,
 				3C7DD4A42A27AB86002FA433 /* Preview Assets.xcassets in Resources */,
 				3C7DD4B72A27AEBA002FA433 /* lion.mp4 in Resources */,
 				3C7DD4BC2A27AEBA002FA433 /* lioness.mp4 in Resources */,
